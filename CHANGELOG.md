@@ -1,6 +1,27 @@
 Change Log
 ==========
 
+Version 2.4.1 *(2012-09-11)*
+----------------------------
+
+ * Fix: `TitlePageIndicator`, `LinePageIndicator`, and `UnderlinePageIndicator`
+   support of `android:background`.
+
+
+Version 2.4.0 *(2012-09-06)*
+----------------------------
+
+ * New `IconPageIndicator`! Uses state-list images to represent pages.
+ * `TabPageIndicator` now supports icons via `IconPagerAdapter` interface.
+ * Support `android:background` attribute on `Canvas`-based views.
+ * Title indicator allows for drawing its line, underline, and/or triangle on
+   top of the titles for placement underneath a `ViewPager`.
+ * Tab indicator now supports ICS-style dividers (see styled sample).
+ * Fix: Do not attempt to change the `ViewPager` page when a motion is
+   cancelled.
+ * Fix: Long titles no longer overlap when swiping to the right.
+
+
 Version 2.3.1 *(2012-05-19)*
 ----------------------------
 
